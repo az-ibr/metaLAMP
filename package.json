@@ -1,0 +1,25 @@
+{
+  "name": "metaLamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.pug --open",
+    "build": "parcel build src/index.pug -d docs --public -url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/az-ibr/metaLamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/az-ibr/metaLamp/issues"
+  },
+  "homepage": "https://github.com/az-ibr/metaLamp#readme",
+  "devDependencies": {
+    "pug": "^3.0.2"
+  }
+}
